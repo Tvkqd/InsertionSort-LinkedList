@@ -24,6 +24,8 @@ int main() {
 				*temp = *prev(temp, 1);
 				*prev(temp, 1) = swap;
 			}
+			else
+				break;
 		}
 	}
 	
